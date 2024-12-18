@@ -1,4 +1,3 @@
-
 use pebbles_game_io::PebblesMetadata;
 
 fn main() {
