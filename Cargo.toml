@@ -4,9 +4,8 @@ name = "pebbles-game"
 version = "0.1.0"
 edition = "2021"
 
-
 [dependencies]
-gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" }
+gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" , features = ["debug"]}
 pebbles-game-io.path = "io"
 
 [build-dependencies]
